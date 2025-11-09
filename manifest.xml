@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="los" fetch="https://github.com/LineageOS" />
+    <remote name="me" fetch="https://github.com/sm4250" />
+
+    <!-- Device-Tree -->
+    <project path="device/motorola/bangkk" name="android_device_motorola_capri" remote="me" revision="lineage-23.0"  />
+
+    <!-- Vendor and Vendor-Common -->
+    <project path="vendor/motorola/capri" name="android_vendor_motorola_capri" remote="me" revision="lineage-23.0"  />
+    <project path="vendor/motorola/sm6375-common" name="android_vendor_motorola_sm4250-common" remote="me" revision="sixteen"  />
+
+    <!-- Kernel and Dependencies -->
+    <project path="kernel/motorola/sm4250" name="android_kernel_motorola_sm4250" remote="me" revision="lineage-23.0"  />
+    <project path="hardware/motorola" name="android_hardware_motorola" remote="los" revision="lineage-23.0"  />
+
+</manifest>
