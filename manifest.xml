@@ -8,7 +8,7 @@
 
     <!-- Vendor and Vendor-Common -->
     <project path="vendor/motorola/capri" name="android_vendor_motorola_capri" remote="me" revision="lineage-23.0"  />
-    <project path="vendor/motorola/sm4250-common" name="android_vendor_motorola_sm4250-common" remote="me" revision="lineage-23.0"  />
+    <project path="vendor/motorola/sm6225-common" name="android_vendor_motorola_sm6225-common" remote="me" revision="lineage-23.0"  />
 
     <!-- Kernel and Dependencies -->
     <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="me" revision="lineage-23.0"  />
